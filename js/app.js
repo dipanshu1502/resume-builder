@@ -449,12 +449,6 @@
   }
 
   function populateSelects() {
-    const streamSel = $("#pi-stream");
-    RD.STREAMS.forEach(function (s) { const o = document.createElement("option"); o.value = s; o.textContent = s; streamSel.appendChild(o); });
-    const goalSel = $("#pi-goal");
-    RD.CAREER_GOALS.forEach(function (s) { const o = document.createElement("option"); o.value = s; o.textContent = s; goalSel.appendChild(o); });
-    const dl = $("#course-list");
-    RD.COURSES.forEach(function (s) { const o = document.createElement("option"); o.value = s; dl.appendChild(o); });
   }
 
   // ---------- stepper / wizard ----------
